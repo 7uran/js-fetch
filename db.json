@@ -1,0 +1,25 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "name": "Jubayer Al Hasan",
+      "title": "Marketing Expert",
+      "url": "https://html.creativegigstf.com/homy/homy/images/agent/img_02.jpg",
+      "status": "Online"
+    },
+    {
+      "id": "2",
+      "name": "Mark Filo",
+      "title": "Ceo & Founder",
+      "url": "https://html.creativegigstf.com/homy/homy/images/agent/img_01.jpg",
+      "status": "Offline"
+    },
+    {
+      "id": "bd3e",
+      "name": "asd",
+      "title": "asd",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvax6_53ZdmSPDZ7vBFnuDT90ZOryW1qA3Lg&s",
+      "status": "Online"
+    }
+  ]
+}

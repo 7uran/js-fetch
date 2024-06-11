@@ -67,4 +67,16 @@
   box-shadow: 0 2px 4px 0 gray;
   cursor: pointer;
   border: none;
-}/*# sourceMappingURL=style.css.map */
+}
+.loader{
+  display: none;
+}
+.show{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+/*# sourceMappingURL=style.css.map */
