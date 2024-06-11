@@ -1,0 +1,72 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        border-radius: 20px;
+    }
+
+    h3 {
+        color: rgb(168, 165, 165);
+        font-weight: 500;
+    }
+
+    .card-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        button {
+            background-color: red;
+            border: none;
+            border-radius: 7px;
+            box-shadow: 0 2px 4px 0 gray;
+            padding: 10px 10px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: red;
+            }
+
+            i {
+                color: white;
+            }
+        }
+    }
+
+
+
+}
+
+.navigate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    button{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: green;
+        box-shadow: 0 2px 4px 0 gray;
+        cursor: pointer;
+        border:none
+        
+    }
+
+}
