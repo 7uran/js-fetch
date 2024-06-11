@@ -1,13 +1,10 @@
-document.querySelector("form").addEventListener("submit", function (event) {
-    event.preventDefault(); // Formun varsayılan gönderme işlemini engeller
-
-    // Form verilerini toplayın
+const form = document.querySelector(".form")
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
     const formData = new FormData(event.target);
     const data = {};
     formData.forEach((value, key) => (data[key] = value));
-
-    // POST isteği gönderin
-    fetch('https://your-api-endpoint.com/submit', {
+    fetch('http://localhost:3000/cards', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
